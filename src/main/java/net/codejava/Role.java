@@ -14,6 +14,7 @@ public class Role {
 	@Column(name = "role_id")
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
+	//Mushfiq2
 	private String name;
 	public Integer getId() {
 		return id;
