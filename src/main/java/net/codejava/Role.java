@@ -14,7 +14,7 @@ public class Role {
 	@Column(name = "role_id")
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
-	//Omar2
+	//Hoho
 	private String name;
 	public Integer getId() {
 		return id;
